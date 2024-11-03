@@ -1,0 +1,234 @@
+.sol-container {
+  margin-top: 200px;
+}
+.sol-wrapper {
+  margin: 0 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.sol-left h4 {
+  font-size: 16px;
+  color: #00e499;
+  padding-bottom: 10px;
+}
+.sol-left h1 {
+  font-size: 62px;
+  color: #00593d;
+  padding-bottom: 50px;
+}
+.sol-left ul {
+  padding-left: 10px;
+}
+.sol-left li {
+  padding: 10px 0;
+  font-size: 18px;
+}
+.sol-right{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.sol-right img {
+  width: 100%;
+}
+.video-play-button {
+    cursor: pointer;
+    position: absolute;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.video-play-button:hover{
+  transform: scale(1.1);
+}
+.video-play-button img {
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+  background-color: #00BB7E;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1440px) {
+  .sol-container {
+    margin-top: 200px;
+  }
+  .sol-wrapper {
+    margin: 0 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .sol-left h4 {
+    font-size: 16px;
+    color: #00e499;
+    padding-bottom: 10px;
+  }
+  .sol-left h1 {
+    font-size: 54px;
+    color: #00593d;
+    padding-bottom: 50px;
+  }
+  .sol-left ul {
+    padding-left: 10px;
+  }
+  .sol-left li {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .sol-right{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .sol-right img {
+    width: 100%;
+  }
+  .video-play-button {
+      cursor: pointer;
+      position: absolute;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+  }
+  .video-play-button:hover{
+    transform: scale(1.1);
+  }
+  .video-play-button img {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    background-color: #00BB7E;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 1024px) {
+  .sol-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 20vw;
+  }
+
+
+}
+@media (max-width: 768px) {
+  .sol-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 10vw;
+    text-align: center;
+  }
+  .sol-container {
+    margin-top: 200px;
+  }
+  .sol-left h4 {
+    font-size: 16px;
+    color: #00e499;
+    padding-bottom: 10px;
+  }
+  .sol-left h1 {
+    font-size: 48px;
+    color: #00593d;
+    padding-bottom: 50px;
+  }
+  .sol-left ul {
+    padding-left: 10px;
+  }
+  .sol-left li {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .sol-right{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .sol-right img {
+    width: 100%;
+  }
+  .video-play-button {
+      cursor: pointer;
+      position: absolute;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+  }
+  .video-play-button:hover{
+    transform: scale(1.1);
+  }
+  .video-play-button img {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    background-color: #00BB7E;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 512px) {
+  .sol-container {
+    margin-top: 50px;
+  }
+  .sol-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 10vw;
+    text-align: center;
+  }
+  .sol-container {
+    margin-top: 200px;
+  }
+  .sol-left h4 {
+    font-size: 16px;
+    color: #00e499;
+    padding-bottom: 10px;
+  }
+  .sol-left h1 {
+    font-size: 40px;
+    color: #00593d;
+    padding-bottom: 50px;
+  }
+  .sol-left ul {
+    padding-left: 10px;
+  }
+  .sol-left li {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .sol-right{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .sol-right img {
+    width: 100%;
+  }
+  .video-play-button {
+      cursor: pointer;
+      position: absolute;
+      transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  
+  }
+  .video-play-button:hover{
+    transform: scale(1.1);
+  }
+  .video-play-button img {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+    background-color: #00BB7E;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
